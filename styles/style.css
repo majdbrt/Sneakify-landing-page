@@ -13,6 +13,7 @@ body{
     align-items: center;
     background-color: #1F2937;
     color: white;
+    gap:14vmax;
 }
 
 .header-logo{
@@ -75,7 +76,7 @@ a{
     border: #3882f6;
 }
 
-.middle1{
+.middle{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,7 +93,7 @@ a{
 .middle-images{
     display: flex;
     gap: 2vmax;
-    color:#1F2937 ;
+    color: gray ;
 }
 
 .middle-images img{
@@ -110,6 +111,36 @@ a{
     flex-direction: column;
     align-items: center;
     gap: 1vmin;
+}
+
+.middle2{
+    padding: 12vmin 0 15vmin 0;
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.costumer-review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.review-text{
+    color:gray;
+    width: 40vmax;
+    font-style: italic;
+    font-size: larger;
+}
+
+.review-author{
+    column-rule: #1F2937;
+    font-size: medium;
+    font-weight: bold;
+align-self: flex-end;
 }
 
 .footer{
