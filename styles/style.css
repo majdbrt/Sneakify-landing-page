@@ -3,8 +3,6 @@ body{
 }
 
 .flex-container{
-    height: 100vh;
-    
     display: flex;
     flex-direction: column;    
 }
@@ -43,14 +41,14 @@ a{
     color: white;
     justify-content: center;
     align-items: center;
-    padding: 12vh 0 0 0;
-    gap: 2vw;
+    padding: 12vmin 0 15vmin 0;
+    gap: 2vmax;
 }
 
 .top-message{
     display: flex;
     flex-direction: column;
-    gap: 0.5vh;
+    gap: 0.5vmin;
 }
 
 .top-message .main-title{
@@ -63,18 +61,55 @@ a{
 }
 
 .top-message-image, .top-message{
-    height: 32vh;
-    width: 32vw;
+    height: 32vmin;
+    width: 32vmax;
 }
 
 .signup{
-    height: 5vh;
-    width: 8vw;
+    height: 5vmin;
+    width: 8vmax;
     border-radius: 9px;
     background-color: #3882f6;
     color: white;
     font-weight: bold;
     border: #3882f6;
+}
+
+.middle1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12vmin 0 15vmin 0;
+    gap: 12vmin;
+}
+
+.middle-title{
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.middle-images{
+    display: flex;
+    gap: 2vmax;
+    color:#1F2937 ;
+}
+
+.middle-images img{
+    height: 20vmin;
+    width: 15vmax;
+    border-radius: 20px;
+    padding: 0px;
+    border: 4px solid #3882f6;
+    background-color: #3882f6;
+    
+}
+
+.image1, .image2, .image3, .image4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vmin;
 }
 
 .footer{
