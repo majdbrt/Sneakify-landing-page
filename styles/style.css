@@ -81,7 +81,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 12vmin 0 15vmin 0;
+    padding: 12vmin 0 12vmin 0;
     gap: 12vmin;
 }
 
@@ -115,7 +115,7 @@ a{
 }
 
 .middle2{
-    padding: 12vmin 0 15vmin 0;
+    padding: 12vmin 0 12vmin 0;
     background-color: #E5E7EB;
     display: flex;
     align-items: center;
@@ -144,10 +144,48 @@ a{
 align-self: flex-end;
 }
 
+.signup-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12vmin 25vmax 12vmin 25vmax;
+    padding: 5vmin 5vmax 5vmin 5vmax;
+    border-radius: 6px;
+    background-color:#3882f6;
+    color: white;
+    gap: 3vmax;
+}
+
+.signup-section button{
+    height: 5vmin;
+    width: 12vmax;
+    color: white;
+    background-color: #3882f6;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.signup-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vmin;
+}
+
+.signup-title{
+    font-weight: bold;
+}
+
+.signup-message{
+    font-size: small;
+    color: #E5E7EB;
+}
+
 .footer{
     background-color: #1F2937;
     color: white;
     text-align: center;
     padding: 25px;
+    font-size: small;
 }
 
